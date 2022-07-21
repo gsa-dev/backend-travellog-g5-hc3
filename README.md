@@ -2,8 +2,6 @@
 
 Resumo
 
-Backend
-
 Esboço do fluxo do backend do projeto
 
 ![image](https://user-images.githubusercontent.com/28959980/180124020-2dc79a2f-c23f-41f9-b7b6-3a2b82ce5032.png)
