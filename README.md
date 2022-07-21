@@ -18,7 +18,7 @@ Segunda parte (fluxo 4 e 5) do desenvolvimento foi criar uma API para buscar a i
 
 ![image](https://user-images.githubusercontent.com/28959980/180124735-798cec67-edb0-4e06-99e2-9ee88e0ed93e.png)
 
-Para pegar os pontos basta da um GET no endpoint https://nzqmk80qxe.execute-api.us-east-1.amazonaws.com/prod/score passando como parametro o ID do usuario, nas reposta vai ter os pontos adicionados, debitados e a soma total.
+Para pegar os pontos basta da um GET no endpoint https://nzqmk80qxe.execute-api.us-east-1.amazonaws.com/prod/score passando como parametro o ID do usuario, na reposta vai ter os pontos adicionados, debitados e a soma total.
 
 ![image](https://user-images.githubusercontent.com/28959980/180125511-c98bd011-d2db-4ed6-abe2-8b29597914b6.png)
 
