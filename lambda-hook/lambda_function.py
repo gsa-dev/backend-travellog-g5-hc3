@@ -9,8 +9,8 @@ def lambda_handler(event, context):
     orderid = body_dic['OrderId']
     url = f"https://travellog.myvtex.com/api/oms/pvt/orders/{orderid}?_stats=1"
     headers = {
-        'X-VTEX-API-AppKey': 'vtexappkey-travellog-MWLBRW',
-        'X-VTEX-API-AppToken': 'JMBJMGEKUOPFVKKVWJNKEZDRBWJIRSOGIMYZCQDGTCHTLLCVQWPFOXKDNFMJSUJHOQZBOFJBVBHCHZVWSIMAADKEJZJYBZQGWZYVDMZXAEJKMUWOUYFVLSVKEFXWIZQV',
+        'X-VTEX-API-AppKey': '<appkey>',
+        'X-VTEX-API-AppToken': '<apptoken>',
     }
 
     response = requests.request("GET", url, headers=headers)
