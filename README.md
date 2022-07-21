@@ -10,6 +10,9 @@ Primeiro foi criado um hook utilizando o lambda da AWS, esse lambda e reponsavel
 
 ![image](https://user-images.githubusercontent.com/28959980/180125135-c12ba0ca-e57c-4465-a258-5b8f4002b6c6.png)
 
+Para configurar o hook na VTEX foi feito um POST no endpoint https://travellog.myvtex.com/api/orders/hook/config?_stats=1 
+
+![image](https://user-images.githubusercontent.com/28959980/180128370-77da13bc-5fee-4a5e-91a4-0c03149fe835.png)
 
 Segunda parte (fluxo 4 e 5) do desenvolvimento foi criar uma API para buscar a informação de quantos pontos o usuario tem disponivel e tambem conseguir debitar pontos da sua conta. Para o desenvolvimento da api  foi utilizado o API Gateway e Lambda da AWS.
 
